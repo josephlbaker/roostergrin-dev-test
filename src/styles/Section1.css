@@ -1,0 +1,23 @@
+.image-content1.col {
+  background-image: url("../resources/img-1.jpg") !important;
+  background-repeat: no-repeat;
+  height: 100vh !important;
+}
+
+.section1-row {
+  width: 100vw !important;
+}
+
+.section1-container {
+  height: 526px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* .container {
+  height: 600px;
+} */
+/*
+.section1-row {
+  margin-top: 300px;
+} */

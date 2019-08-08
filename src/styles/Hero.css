@@ -1,0 +1,18 @@
+.hero-container {
+  background-image: url("../resources/hero.jpg");
+  height: 100vh;
+}
+
+.content {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+a.btn {
+  background-color: #CD94E8 !important;
+  border-color: #CD94E8 !important;
+}

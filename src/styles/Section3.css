@@ -1,0 +1,15 @@
+.image-content3.col {
+  background-image: url("../resources/img-1.jpg") !important;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.section3-row {
+  width: 100vw !important;
+}
+
+.section3-container {
+  height: 526px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
