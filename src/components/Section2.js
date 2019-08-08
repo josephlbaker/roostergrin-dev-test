@@ -9,10 +9,12 @@ export default class Section2 extends Component {
     return (
       <Container className="section2-container">
         <Row className="section2-row">
-          <Col className="text-content">
-            <h3>LOREM IPSUM</h3>
-            Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. At ultrices mi tempus imperdiet nulla malesuada. Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Gravida cum sociis natoque penatibus et magnis. Eget arcu dictum varius duis at consectetur lorem donec. Sit amet porttitor eget dolor morbi non arcu risus. Ut tortor pretium viverra suspendisse potenti. Sed sed risus pretium quam vulputate dignissim suspendisse. Faucibus purus in massa tempor nec feugiat nisl pretium. Vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt.
-            <a href="#"> Learn more...</a>
+          <Col>
+            <div className="section2-content">
+              <h3>LOREM IPSUM</h3>
+              <p>Eget arcu dictum varius duis at consectetur lorem donec. Sit amet porttitor eget dolor morbi non arcu risus. Ut tortor pretium viverra suspendisse potenti. Sed sed risus pretium quam vulputate dignissim suspendisse. Faucibus purus in massa tempor nec feugiat nisl pretium. Vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt.</p>
+              <a href="#"> Learn more...</a>
+            </div>
           </Col>
           <Col className="grid-icons">
             <Container>
@@ -25,8 +27,8 @@ export default class Section2 extends Component {
                 <Col><p className="home-icons">Ipsum</p></Col>
               </Row>
               <Row>
-                <Col className="grid-column"><div className="image-border"><img className="home-icons" src={require(`../resources/home-lab.svg`)} alt="" /></div></Col>
-                <Col className="grid-column"><div className="image-border"><img className="home-icons" src={require(`../resources/home-retention.svg`)} alt="" /></div></Col>
+                <Col className="grid-column"><div className="image-border bottom"><img className="home-icons" src={require(`../resources/home-lab.svg`)} alt="" /></div></Col>
+                <Col className="grid-column"><div className="image-border bottom"><img className="home-icons" src={require(`../resources/home-retention.svg`)} alt="" /></div></Col>
               </Row>
               <Row>
                 <Col><p className="home-icons">Ipsum</p></Col>

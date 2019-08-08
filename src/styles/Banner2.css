@@ -2,3 +2,29 @@
   background-image: url("../resources/banner-2.jpg");
   height: 600px;
 }
+
+.banner2-text {
+  width: 500px;
+}
+/*
+.banner2-text, .banner2-header, .banner2-button {
+  right: 0;
+} */
+
+
+.banner2-header {
+  color: #301934;
+  font-size: 40px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.banner2-content {
+  margin-top: 140px;
+  margin-right: 80px;
+  float: right;
+}
+
+.banner2-button {
+  background-color: #FF7218;
+  border-color: #FF7218;
+}

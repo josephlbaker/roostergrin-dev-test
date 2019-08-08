@@ -2,3 +2,19 @@
   background-image: url("../resources/banner-1.jpg");
   height: 600px;
 }
+
+.banner1-content {
+  margin-left: 200px;
+  padding-top: 200px;
+}
+
+.banner1-header {
+  color: #301934;
+  font-size: 40px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.banner1-button {
+  background-color: #FF7218;
+  border-color: #FF7218;
+}
