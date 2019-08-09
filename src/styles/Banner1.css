@@ -14,7 +14,20 @@
   font-family: 'Nunito', sans-serif;
 }
 
-.banner1-button {
-  background-color: #FF7218;
-  border-color: #FF7218;
+a.btn {
+  background-color: #FF7218 !important;
+  border-color: #FF7218 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner1-container {
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: fit-content;
+  }
+  .banner1-content {
+    text-align: left;
+    margin: 0;
+    padding: 200px 40px 20px;
+  }
 }

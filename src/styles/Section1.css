@@ -41,3 +41,29 @@
 .section1-row {
   margin-top: 300px;
 } */
+
+@media only screen and (max-width: 768px) {
+  .image-content1.col {
+    display: none;
+  }
+  .section1-content {
+    margin: 0;
+    padding: 20px;
+    float: none;
+    width: 100%;
+  }
+  .section1-content p {
+    margin: 10px auto;
+    width: 100%;
+  }
+  .section1-content h3 {
+    width: 100%;
+    margin: 20px auto 20px;
+  }
+
+  .section1-container {
+    height: fit-content !important;
+    padding: 20px !important;
+  }
+}
+

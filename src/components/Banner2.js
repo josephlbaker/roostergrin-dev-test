@@ -9,7 +9,7 @@ export default class Banner2 extends Component {
         <div className="banner2-content">
           <h3 className="banner2-header">LOREM IPSUM</h3>
           <p className="banner2-text">Lorem ipsum dolor siLorem ipsum dolor siLorem ipsum dolor si Lorem ipsum dolor si Lorem ipsum dolor si Lorem ipsum dolor siLorem ipsum dolor siLorem ipsum dolor si Lorem ipsum dolor si Lorem ipsum dolor si</p>
-          <Button className="banner2-button">Learn more</Button>
+          <Button href="https://www.roostergrin.com/">Learn more</Button>
         </div>
       </div>
     )

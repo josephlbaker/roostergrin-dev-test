@@ -8,7 +8,7 @@ export default class Banner1 extends Component {
       <div className="banner1-container">
         <div className="banner1-content">
           <h3 className="banner1-header">LOREM IPSUM</h3>
-          <Button className="banner1-button">Learn more</Button>
+          <Button href="https://www.roostergrin.com/">Learn more</Button>
         </div>
       </div>
     )

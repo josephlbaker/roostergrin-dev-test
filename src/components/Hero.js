@@ -10,7 +10,7 @@ export default class Hero extends Component {
         <div className="content">
           <h2>WELCOME TO</h2>
           <h3>Rooster Grin</h3>
-          <Button href="https://www.roostergrin.com/">Let's get started</Button>
+          <Button className="hero-button" href="https://www.roostergrin.com/">Let's get started</Button>
         </div>
       </div>
     )

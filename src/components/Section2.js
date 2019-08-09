@@ -9,11 +9,11 @@ export default class Section2 extends Component {
     return (
       <Container className="section2-container">
         <Row className="section2-row">
-          <Col>
+          <Col className="section2-col">
             <div className="section2-content">
               <h3>LOREM IPSUM</h3>
               <p>Eget arcu dictum varius duis at consectetur lorem donec. Sit amet porttitor eget dolor morbi non arcu risus. Ut tortor pretium viverra suspendisse potenti. Sed sed risus pretium quam vulputate dignissim suspendisse. Faucibus purus in massa tempor nec feugiat nisl pretium. Vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt.</p>
-              <a href="#"> Learn more...</a>
+              <a href="https://www.roostergrin.com/">> Learn more</a>
             </div>
           </Col>
           <Col className="grid-icons">

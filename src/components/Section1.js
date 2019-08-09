@@ -13,7 +13,7 @@ export default class Banner1 extends Component {
             <div className="section1-content">
               <h3>LOREM IPSUM</h3>
               <p>Eget arcu dictum varius duis at consectetur lorem donec. Sit amet porttitor eget dolor morbi non arcu risus. Ut tortor pretium viverra suspendisse potenti. Sed sed risus pretium quam vulputate dignissim suspendisse. Faucibus purus in massa tempor nec feugiat nisl pretium. Vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt.</p>
-              <a href="#">> Learn more</a>
+              <a href="https://www.roostergrin.com/">> Learn more</a>
             </div>
           </Col>
           <Col className="image-content1"></Col>

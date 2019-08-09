@@ -87,3 +87,34 @@
 .insta-logo, .fb-logo {
   height: 40px;
 }
+
+@media only screen and (max-width: 500px) {
+  .media-links {
+    bottom: -430px;
+    width: 100vw;
+  }
+
+  .section3-row {
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section3-header {
+    padding-top: 60px;
+  }
+
+  .section3-text {
+    width: 70%;
+  }
+
+  .review-content {
+    margin-top: 40px;
+    padding: 20px;
+  }
+
+  .review-content h3 {
+    font-size: 36px !important;
+  }
+}

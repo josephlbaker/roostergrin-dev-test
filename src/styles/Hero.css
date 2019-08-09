@@ -1,6 +1,8 @@
 .hero-container {
   background-image: url("../resources/hero.jpg");
   height: 100vh;
+  background-repeat: no-repeat;
+  animation: fade-in 1s ease-in;
 }
 
 .top-logo {
@@ -16,6 +18,7 @@
 
 .content h3 {
   font-size: 40px;
+  letter-spacing: 1.2;
 }
 
 .content {
@@ -28,7 +31,57 @@
   color: white;
 }
 
-a.btn {
+span.fa {
+  margin: 0 5px;
+  font-size: 40px;
+}
+
+a.hero-button.btn {
   background-color: #CD94E8 !important;
   border-color: #CD94E8 !important;
+  text-transform: uppercase;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 768px) {
+  .top-logo {
+    margin: 0 auto;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    width: 70%;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .content h2 {
+    font-size: 46px;
+  }
+
+  .hero-container {
+    background-position-x: 84%;
+    background-size: cover;
+  }
+}
+
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
